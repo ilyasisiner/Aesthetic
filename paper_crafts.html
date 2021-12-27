@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="shortcut icon" href="/assets/img/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Noto+Sans&display=swap" rel="stylesheet">
+    <title>Aesthetic || Paper & Krafts</title>
+</head>
+<body>
+    <!-- Header-Start -->
+    <header>       
+        <!-- Navbar-Start -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand text-center" href="/index.html"><img width="200px" class="" src="/assets/img/aesthetic_logo_thin.png" alt="aesthetic_logo_thin"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <div class="toggle">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <button type="button" class="btn btn-outline-light pe-4" data-bs-toggle="modal" data-bs-target="#exampleModalToggle" data-bs-whatever="@mdo">
+                                <i class="fas fa-user fa-lg icon_color"></i>
+                            </button>
+                            <span class="d-sm-none show">Kullanıcı Girişi</span>
+                        </li>
+                        <li class="nav-item">
+                            <button class="btn btn-outline-light pe-4 type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight1" aria-controls="offcanvasRight">
+                                <i class="fas fa-shopping-bag fa-lg icon_color"></i>
+                            </button>
+                            <span class="d-sm-none show">Sepetim</span>
+                        </li>
+                        <li class="nav-item">
+                            <button class="btn btn-outline-light pe-4 type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight2" aria-controls="offcanvasRight">
+                                <i class="fas fa-heart fa-lg icon_color "></i>
+                            </button>
+                            <span class="d-sm-none show">Favorilerim</span>
+                        </li>
+                    </ul>
+                    </div>
+                </div>
+            </div> 
+        </nav>
+        <!-- Navbar-End -->
+             <!--Chart-Start -->
+             <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight1" aria-labelledby="offcanvasRightLabel">
+                 <div class="offcanvas-header">
+                 <h5 id="offcanvasRightLabel">SEPETİM</h5>
+                 <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                 </div>
+                 <div class="offcanvas-body d-flex flex-column justify-content-between">
+                     <div class="container">
+                         <div class="row border-bottom">
+                             <div class="col-md-4 d-flex flex-column justify-content-between">
+                                 <h5>I am the Queen Poster</h5>
+                                 <h6 class="pb-3 fw-bold">Fiyat <br> 190,00 ₺</h6>
+                             </div>
+                             <div class="col-md-8 text-center">
+                                 <img class="w-75" src="/assets/img/artprint1.jpg" alt="">
+                             </div>    
+                         </div>
+                         <div class="row border-bottom pt-5">
+                             <div class="col-md-4 d-flex flex-column justify-content-between">
+                                 <h5>Doğa Cam Heykel</h5>
+                                 <h6 class="pb-3 fw-bold">Fiyat <br> 1046,00 ₺</h6>
+                             </div>
+                             <div class="col-md-8 text-center">
+                                 <img class="w-75" src="/assets/img/sakenproduct2.jpeg" alt="">
+                             </div>
+                         </div>
+                     </div>
+                     <div class="container mt-5">
+                         <div class="row">
+                             <div class="col-md-6">
+                                 <div class="btn w-100 btn-dark zoom">Siparişi Tamamla</div>
+                             </div>
+                             <div class="col-md-6 text-end">
+                                 <h4>Toplam Tutar 1236,0₺</h4>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+             <!-- Chart-End -->
+             <!-- Favorite-Start -->
+             <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight2" aria-labelledby="offcanvasRightLabel">
+                 <div class="offcanvas-header">
+                 <h5 id="offcanvasRightLabel">Favorilerim</h5>
+                 <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                 </div>
+                 <div class="offcanvas-body d-flex flex-column justify-content-between">
+                     <div class="container">
+                         <div class="row border-bottom">
+                             <div class="col-md-4 d-flex flex-column justify-content-between">
+                                 <h5>Hugs Baskı</h5>
+                                 <h6 class="pb-3 fw-bold">Fiyat <br> 250,00 ₺</h6>
+                             </div>
+                             <div class="col-md-8 text-center">
+                                 <img class="w-75" src="/assets/img/paparproduct3.png" alt="">
+                             </div>   
+                             <div class="row mt-5 pb-3">
+                                 <div class="col-md-12 text-center">
+                                     <div class="btn w-50 btn-dark zoom">Sepete Ekle</div>
+                                 </div>
+                             </div> 
+                         </div>
+                         <div class="row border-bottom pt-5">
+                             <div class="col-md-4 d-flex flex-column justify-content-between">
+                                 <h5>Vacay Baskı</h5>
+                                 <h6 class="pb-3 fw-bold">Fiyat <br> 550,00 ₺</h6>
+                             </div>
+                             <div class="col-md-8 text-center">
+                                 <img class="w-75" src="/assets/img/paparproduct4.png" alt="">
+                             </div>
+                             <div class="row mt-5 pb-3">
+                                 <div class="col-md-12 text-center">
+                                     <div class="btn w-50 btn-dark zoom">Sepete Ekle</div>
+                                 </div>
+                             </div> 
+                         </div>
+                     </div>
+                 </div>
+             </div>
+             <!--Favorite-End -->
+             <!-- Login-Signin-Start -->
+             <!--Login-Start  -->
+             <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                 <div class="modal-dialog modal-dialog-centered">
+                   <div class="modal-content">
+                     <div class="modal-header">
+                       <h5 class="modal-title" id="exampleModalToggleLabel">Üye Girişi</h5>
+                       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                     </div>
+                     <div class="modal-body">
+                         <form>
+                           <div class="mb-3">
+                             <input type="text" class="form-control" id="recipient-name" placeholder="Kullanıcı Adınız">
+                           </div>
+                           <div class="mb-3">
+                               <input type="password" class="form-control" id="recipient-name" placeholder="Şifreniz">
+                           </div>
+                           <a class="text-decoration-none black_text" href="#">Şifreni mi unuttun?</a><br>
+                           <button type="button" class="btn btn-dark mt-3">Giriş Yap</button><br>
+                         </form>
+                     </div>
+                     <div class="modal-footer d-flex justify-content-center ">
+                         <p>Hesabınız yok mu?</p><br>
+                         <button class="btn btn-dark" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" data-bs-dismiss="modal">Üye Ol</button>
+                     </div>
+                   </div>
+                 </div>
+             </div>
+             <!-- Login-End -->
+             <!-- Signin-Start -->
+             <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+                 <div class="modal-dialog modal-dialog-centered">
+                   <div class="modal-content">
+                     <div class="modal-header">
+                       <h5 class="modal-title" id="exampleModalToggleLabel2">Kayıt Ol</h5>
+                       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                     </div>
+                     <div class="modal-body">
+                         <form>
+                             <div class="mb-3">
+                                 <input type="text" class="form-control" id="recipient-name" placeholder="Kullanıcı Adınız">
+                             </div>
+                             <div class="mb-3">
+                                 <input type="email" class="form-control" id="recipient-name" placeholder="Email">
+                             </div>
+                             <div class="mb-3">
+                                 <input type="password" class="form-control" id="recipient-name" placeholder="Şifreniz">
+                             </div>
+                             <div class="mb-3">
+                                 <input type="password" class="form-control" id="recipient-name" placeholder="Şifre Tekrar">
+                             </div>
+                             <button type="button" class="btn btn-dark mt-3">Kayıt Ol</button><br>
+                         </form>
+                     </div>
+                     <div class="modal-footer d-flex justify-content-center ">
+                         <p>Hesabınız var mı?</p><br>
+                         <button class="btn btn-dark text-center " data-bs-target="#exampleModalToggle" data-bs-toggle="modal" data-bs-dismiss="modal">Giriş Yap</button>
+                     </div>
+                   </div>
+                 </div>
+             </div>
+             <!-- Signin-End -->
+             <!-- Login-Signin-End  -->
+     </header>
+     <!-- Header-End -->
+    <!-- Main Start -->
+    <main class="mx-auto">
+        <!-- Categorie-İmage-Title-Start -->
+        <section>
+            <div class="container-fluid">
+                <div class="row w-100 paper_crafts_bg mx-auto ">
+                    <div class="col-md-12 d-flex justify-content-center align-items-center">
+                        <h1 class="text-center black_text huge_text ">Paper & Krafts</h1>
+                    </div>
+                </div>
+            </div>
+        <!-- </section> -->
+        <!-- Categorie-İmage-Title-End-->
+        <!-- Products-Start -->
+        <section>
+            <div class="container">
+                <div class="row mt-5 border-bottom border-4 pb-4">
+                    <div class="col-md-6 text-center">
+                        <img class="w-75 box_shadow zoom " src="/assets/img/paparproduct1.png" alt="">
+                    </div>
+                    <div class="col-md-6  my-auto">
+                        <div class="product_info">
+                            <div class="product_detail">
+                                <h3 class="fw-bold">Heart Baskı</h3>
+                                <h5>Ürün Hikayesi</h5>
+                                <p>Disiplinlerarası bir tasarım anlayışı ile illüstrasyonlarda; insan temasının soyut biçimlerinden, doğadan, gündelik deneyimlerden ve hayal gücünden ilham alınmaktadır.</p>
+                                <h5>Detaylar</h5>
+                                <p>Tasarımcı : Paper & Krafts</p>
+                                <p>Malzeme : Kağıt</p>
+                                <p>Ürün Ebatı : 30 * 40 CM</p>
+                            </div>
+                            <div class="product_price">
+                                <h2 class="fw-bold">250,00 ₺</h2>
+                                <div class="btn btn-dark w-50 zoom mt-3">
+                                    <a class="text-decoration-none white_text" href="#" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Sepete Ekle">Sepete Ekle <span><i class="fas fa-shopping-bag fa-lg ps-3 d-none d-sm-inline-block"></i></span></a>
+                                </div>
+                                <div class="btn btn-dark zoom mt-3  ms-2">
+                                    <a class="text-decoration-none white_text" href="#"  data-bs-toggle="tooltip" data-bs-placement="bottom" title="Favorilere Ekle"><i class="fas fa-heart fa-lg "></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-5 border-bottom border-4 pb-4">
+                    <div class="col-md-6 my-auto text-end"> 
+                        <div class="product_info">
+                        <div class="product_detail">
+                            <h3 class="fw-bold">Mood Baskı</h3>
+                            <h5>Ürün Hikayesi</h5>
+                            <p>Disiplinlerarası bir tasarım anlayışı ile illüstrasyonlarda; insan temasının soyut biçimlerinden, doğadan, gündelik deneyimlerden ve hayal gücünden ilham alınmaktadır.</p>
+                            <h5>Detaylar</h5>
+                            <p>Tasarımcı : Paper & Krafts</p>
+                            <p>Malzeme : Kağıt</p>
+                            <p>Ürün Ebatı : 30 * 40 CM</p>
+                        </div>
+                        <div class="product_price">
+                            <h2 class="fw-bold">550,00 ₺</h2>
+                            <div class="btn btn-dark w-50 zoom mt-3">
+                                <a class="text-decoration-none white_text" href="#" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Sepete Ekle">Sepete Ekle <span><i class="fas fa-shopping-bag fa-lg ps-3 d-none d-sm-inline-block"></i></span></a>
+                            </div>
+                            <div class="btn btn-dark zoom mt-3  ms-2">
+                                <a class="text-decoration-none white_text" href="#"  data-bs-toggle="tooltip" data-bs-placement="bottom" title="Favorilere Ekle"><i class="fas fa-heart fa-lg "></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 text-center">
+                    <img class="w-75 box_shadow zoom" src="/assets/img/paparproduct2.png" alt=""></div>
+                </div>
+                <div class="row mt-5 border-bottom border-4 pb-4">
+                    <div class="col-md-6 text-center">
+                        <img class="w-75 box_shadow zoom" src="/assets/img/paparproduct3.png" alt="">
+                    </div>
+                    <div class="col-md-6 my-auto">
+                        <div class="product_info">
+                            <div class="product_detail">
+                                <h3 class="fw-bold">Hugs Baskı</h3>
+                                <h5>Ürün Hikayesi</h5>
+                                <p>Disiplinlerarası bir tasarım anlayışı ile illüstrasyonlarda; insan temasının soyut biçimlerinden, doğadan, gündelik deneyimlerden ve hayal gücünden ilham alınmaktadır.</p>
+                                <h5>Detaylar</h5>
+                                <p>Tasarımcı : Paper & Krafts</p>
+                                <p>Malzeme : Kağıt</p>
+                                <p>Ürün Ebatı : 30 * 40 CM</p>
+                            </div>
+                            <div class="product_price">
+                                <h2 class="fw-bold">250,00 ₺</h2>
+                                <div class="btn btn-dark w-50 zoom mt-3">
+                                    <a class="text-decoration-none white_text" href="#" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Sepete Ekle">Sepete Ekle <span><i class="fas fa-shopping-bag fa-lg ps-3 d-none d-sm-inline-block"></i></span></a>
+                                </div>
+                                <div class="btn btn-dark zoom mt-3  ms-2">
+                                    <a class="text-decoration-none white_text" href="#"  data-bs-toggle="tooltip" data-bs-placement="bottom" title="Favorilere Ekle"><i class="fas fa-heart fa-lg "></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-5 border-bottom border-4 pb-4">
+                    <div class="col-md-6 my-auto text-end">
+                        <div class="product_info">
+                            <div class="product_detail">
+                                <h3 class="fw-bold">Vacay Baskı</h3>
+                                <h5>Ürün Hikayesi</h5>
+                                <p>Disiplinlerarası bir tasarım anlayışı ile illüstrasyonlarda; insan temasının soyut biçimlerinden, doğadan, gündelik deneyimlerden ve hayal gücünden ilham alınmaktadır.</p>
+                                <h5>Detaylar</h5>
+                                <p>Tasarımcı : Paper & Krafts</p>
+                                <p>Malzeme : Kağıt</p>
+                                <p>Ürün Ebatı : 30 * 40 CM</p>
+                            </div>
+                            <div class="product_price">
+                                <h2 class="fw-bold">550,00 ₺</h2>
+                                <div class="btn btn-dark w-50 zoom mt-3">
+                                    <a class="text-decoration-none white_text" href="#" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Sepete Ekle">Sepete Ekle <span><i class="fas fa-shopping-bag fa-lg ps-3 d-none d-sm-inline-block"></i></span></a>
+                                </div>
+                                <div class="btn btn-dark zoom mt-3  ms-2">
+                                    <a class="text-decoration-none white_text" href="#"  data-bs-toggle="tooltip" data-bs-placement="bottom" title="Favorilere Ekle"><i class="fas fa-heart fa-lg "></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 text-center">
+                        <img class="w-75 box_shadow zoom " src="/assets/img/paparproduct4.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Products-End -->
+    </main>
+    <!-- Main-End -->
+    <!-- Footer-Start -->
+    <footer>
+        <div class="container-fluid">
+            <!-- -Subscribe-Area-Start -->
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="text-center mt-5 pt-5">
+                        <h5 class="pb-3">E-bültene Kaydol</h5>
+                        <input class="mail_subscribe" type="email" placeholder="E-mail Adres" required>
+                        <br>
+                        <div class="btn btn-dark w-25 zoom mt-4 mb-5">Gönder</div>
+                    </div>
+                </div>
+            </div>
+            <!-- -Subscribe-Area-End-->
+            <!-- Social-Media-Start -->
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="d-inline">
+                        <a class="icon_color pe-3" href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram-square fa-lg"></i></a>
+                    </div>
+                    <div class="d-inline">
+                        <a class="icon_color pe-3" href="https://tr-tr.facebook.com/" target="_blank"><i class="fab fa-facebook-square fa-lg"></i></a>
+                    </div>
+                    <div class="d-inline">
+                        <a class="icon_color pe-3" href="https://twitter.com/" target="_blank"><i class="fab fa-twitter-square fa-lg"></i></a>
+                    </div>
+                    <div class="d-inline">
+                        <a class="icon_color" href="https://tr.pinterest.com/" target="_blank"><i class="fab fa-pinterest-square fa-lg"></i></a>
+                    </div>
+                    <div class="pt-4 pb-4">
+                        <h5 class="smaller_text">Bizi Sosyal Medya Hesaplarımızdan Takip Edin</h5>
+                    </div>
+                </div>
+            </div>
+            <!-- Social-Media-End -->
+            <!-- Copyright-Start -->
+            <div class="row">
+                <div class="col-md-12 bg-dark pt-3 pb-2 text-center">
+                    <p class="white_text fs-6">&copy; 2021, Tüm Hakları Saklıdır.</p>
+                </div>
+            </div>
+            <!-- Copyright-End -->
+        </div>
+    </footer>
+    <!-- Footer-End -->
+
+    <script src="https://kit.fontawesome.com/adbd44b92e.js" crossorigin="anonymous"></script>
+    <script src="/assets/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,149 @@
+/* Variables */
+:root{
+    --bg-black:#000000;
+    --text-light-black:#333333;
+    --text-white:#ffffff;
+    --text-gray:#e08686;
+    --text-beige:#e4cbb5;
+    --biggest-font-size: 6rem;
+    --bigger-font-size: 4rem;
+    --big-font-size: 2rem;
+    --normal-font-size: 1rem;
+    --smaller-font-size: 0.938rem;   
+}
+@media screen and (max-width: 768px) {
+    :root {
+        --biggest-font-size: 3rem;
+        --bigger-font-size: 2rem;
+        --big-font-size: 1.25rem;
+        --normal-font-size: 0.813rem;
+        --smaller-font-size: 0.75rem;
+    }
+}
+/* General Definitions */
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+body{
+    font-family: 'Barlow Condensed', sans-serif;
+}
+/* General Classes */
+.smaller_text{
+    font-size: var(--smaller-font-size);
+}
+.normal_text{
+    font-size: var(--normal-font-size);
+}
+.big_text{
+    font-size: var(--big-font-size);
+}
+.bigger_text{
+    font-size: var(--bigger-font-size);
+}
+.biggest_text{
+    font-size: var(--biggest-font-size);
+}
+.white_text{
+    color: var(--text-white);
+}
+.bg_black{
+    background-color: var(--bg-black);
+}
+.black_text{
+    color: var(--text-light-black);
+}
+.gray_text{
+    color: var(--text-gray);
+}
+.box_shadow {
+    box-shadow: 0 4px 21px 0 rgb(0 0 0 / 8%);
+}
+.icon_color {
+    color: var(--text-light-black);
+}
+.icon_color:hover {
+    transform: scale(1.4);
+    transition: 0.25s;
+    color: var(--text-beige);
+}
+a:hover{
+    color:var(--text-beige);
+}
+.zoom:hover{
+    transform: scale(1.05);
+    transition: 1s;
+}
+/* index Page Top bg */
+.preview_top{
+   background-image: url(/assets/img/sake_cam_categorie_img.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+}
+/* index Page Bottom bg */
+.preview_bottom{
+    background-image: url(/assets/img/artprint_bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+ }
+ .overlay{
+    background-color: rgba(0, 0, 0, 0.5);
+ }
+ /* Footer */
+.mail_subscribe{
+    width: 350px;
+    border: 0;
+    border-bottom: 1px solid #000;
+    text-align: center;
+}
+/* Categorie Page */
+
+/* Categorie Title Bg */
+.sake_bg{
+    background-image: url(/assets/img/sake_bg.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+    height: 390px;
+}
+.art_print_bg{
+    background-image: url(/assets/img/artprint_bg.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+    height: 390px;
+}
+.paper_crafts_bg{
+    background-image: url(/assets/img/papercrafts.jpeg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+    height: 390px;
+}
+
+@media screen and (max-width: 768px){
+    .toggle{
+        padding-top: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .top_zero{
+        padding-top: 0 !important;
+    }
+}
